@@ -46,11 +46,10 @@ export default {
 			border-radius: 0;
 			text-align: center;
 			padding: 0;
-			filter: contrast(250%) brightness(80%);
+			filter: contrast(100%) brightness(50%);
 		}
 
 		.mask-layer {
-			background-color: rgba(0, 97, 150, 0.5);
 		  position: absolute;
 		  top: 0;
 		  left: 0;
