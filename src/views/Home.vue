@@ -30,7 +30,7 @@
 							</div>
 							<div class="card-text">
 								<p>Ayam goreng dengan taburan srundeng.</p>
-								<p class="price">Rp. 45.000 / pack <span>(stok kosong)</span></p>
+								<p class="price">Rp. 45.000 / pack</p>
 							</div>
 						</div>
 					</div>
@@ -47,7 +47,7 @@
 							</div>
 							<div class="card-text">
 								<p>Telur dadar dengan campuran sayuran basil.</p>
-								<p class="price">Rp. 25.000 / pack <span>(stok kosong)</span></p>
+								<p class="price">Rp. 25.000 / pack</p>
 							</div>
 						</div>
 					</div>
@@ -64,7 +64,7 @@
 							</div>
 							<div class="card-text">
 								<p>Ayam dimasak semur dengan rasa manis dan gurih.</p>
-								<p class="price">Rp. 45.000 / pack <span>(stok kosong)</span></p>
+								<p class="price">Rp. 45.000 / pack</p>
 							</div>
 						</div>
 					</div>
