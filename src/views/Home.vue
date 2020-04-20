@@ -30,7 +30,8 @@
 							</div>
 							<div class="card-text">
 								<p>Ayam goreng dengan taburan srundeng.</p>
-								<p class="price">Rp. 45.000 / pack</p>
+								<p>1 Pack isi 6 pcs ayam, dengan packing plastik kedap udara.</p>
+								<p class="price">Rp. 35.000 / pack</p>
 							</div>
 						</div>
 					</div>
@@ -40,14 +41,15 @@
 					<div class="card">
 						<div class="card-body">
 							<div class="card-title">
-								<h5>Omelet Basil</h5>
+								<h5>Ayam Bacem</h5>
 							</div>
 							<div class="card-img">
-								<img :src="omeletBasil" />
+								<img :src="blank" />
 							</div>
 							<div class="card-text">
-								<p>Telur dadar dengan campuran sayuran basil.</p>
-								<p class="price">Rp. 25.000 / pack</p>
+								<p>Ayam dimasak bumbu kecap dengan rasa manis.</p>
+								<p>1 Pack isi 6 pcs ayam, dengan packing plastik kedap udara.</p>
+								<p class="price">Rp. 35.000 / pack</p>
 							</div>
 						</div>
 					</div>
@@ -57,14 +59,15 @@
 					<div class="card">
 						<div class="card-body">
 							<div class="card-title">
-								<h5>Ayam Semur</h5>
+								<h5>Ayam Bumbu Kuning</h5>
 							</div>
 							<div class="card-img">
-								<img :src="ayamSemur" />
+								<img :src="blank" />
 							</div>
 							<div class="card-text">
-								<p>Ayam dimasak semur dengan rasa manis dan gurih.</p>
-								<p class="price">Rp. 45.000 / pack</p>
+								<p>Ayam dimasak bumbu kuning dan rasa yang gurih.</p>
+								<p>1 Pack isi 6 pcs ayam, dengan packing plastik kedap udara.</p>
+								<p class="price">Rp. 35.000 / pack</p>
 							</div>
 						</div>
 					</div>
@@ -77,8 +80,8 @@
 
 <script>
 import { ImageSlider } from '../components'
+import blank from '../assets/blank.png';
 import ayamSrundeng from '../assets/ayam-srundeng.jpg';
-import omeletBasil from '../assets/omelet-basil.jpg';
 import ayamSemur from '../assets/ayam-semur.jpg';
 
 export default {
@@ -87,9 +90,9 @@ export default {
 		return {
 			isTacHide: false,
 			isMilisHide: false,
+			blank: blank,
 			ayamSrundeng: ayamSrundeng,
-			omeletBasil: omeletBasil,
-			ayamSemur: ayamSemur
+			ayamSemur: ayamSemur,
 		}
 	},
 	components: {
