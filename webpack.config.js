@@ -40,7 +40,15 @@ module.exports = {
         ]
       },
       {
-        test: /\.(png|jpe?g|gif)$/i,
+        test: /\.scss$/,
+        use: [
+          'vue-style-loader',
+          'css-loader',
+          'sass-loader'
+        ]
+      },
+      {
+        test: /\.(png|jpe?g|gif|ico)$/i,
         use: [
           {
             loader: 'file-loader',
@@ -57,7 +65,7 @@ module.exports = {
   devServer: {
 		contentBase: './dist',
     hot: true,
-		host: 'localhost',
+		host: '192.168.1.11',
 		port: 4000
 	},
 	devtool: 'inline-source-map',

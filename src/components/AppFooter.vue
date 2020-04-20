@@ -1,6 +1,6 @@
 <template>
 	<div class="footer-wrapper">
-		<div>&copy; 2020 Yuan Monos. All rights reserved.</div>
+		<div>&copy; 2020 Hafi Sejahtera. All rights reserved.</div>
 	</div>
 </template>
 

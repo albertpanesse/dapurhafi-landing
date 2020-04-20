@@ -3,131 +3,73 @@
 		<div v-bind:class="{tac: true, hide: isTacHide}">
 			<div class="row">
 				<div class="col-lg-10 col-md-10 col-sm-12 col-xs-12  mb-sm-3 mb-xs-3">
-					By accessing and using this website, you acknowledge that you have read and understand our <a href="">Cookie Policy</a>, <a href="">Privacy Policy</a>, and our <a href="">Terms of Service</a>.
+					Dengan mengakses dan menggunakan situs web ini, Anda mengetahui bahwa Anda telah membaca dan memahami <a href="">Kebijakan Cookie</a>, <a href="">Kebijakan Privacy</a>, dan <a href="">Ketentuan Layanan</a> kami.
 				</div>
 				<div class="col-lg-2 col-md-2 col-sm-12 col-xs-12">
-					<button class="btn btn-primary" v-on:click="tacHide">Got It</button>
+					<button class="btn btn-primary" v-on:click="tacHide">Setuju</button>
 				</div>
 			</div>
 		</div>
 		<image-slider></image-slider>
 		<div class="container-fluid">
 			<div class="intro">
-				<h1>How Can I Help You?</h1>
-				<p>Our work then targeted, best practices outcomes social innovation synergy. Venture philanthropy, revolutionary inclusive policymaker relief. User-centered program areas scale.</p>
+				<h1>Work From Home dan Laper?</h1>
+				<p>Silakan pesan makanan dari menu-menu yang tersedia berikut ini.</p>
 			</div>
 
 			<div class="row">
+
 				<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 mb-4">
 					<div class="card">
-					  <div class="card-body">
-					    <div class="card-title row">
-					    	<div class="col-10">
-					    		<h5>Consult</h5>
-					    	</div>
-					    	<div class="col-2">
-					    		<span class="fa fa-comments-o"></span>
-					    	</div>
-				    	</div>
-					    <div class="card-text">Co-create, design thinking; strengthen infrastructure resist granular. Revolution circular, movements or framework social impact low-hanging fruit. Save the world compelling revolutionary progress.</div>
-					  </div>
+						<div class="card-body">
+							<div class="card-title">
+								<h5>Ayam Srundeng</h5>
+							</div>
+							<div class="card-img">
+								<img :src="ayamSrundeng" />
+							</div>
+							<div class="card-text">
+								<p>Ayam goreng dengan taburan srundeng.</p>
+								<p class="price">Rp. 45.000 / pack <span>(stok kosong)</span></p>
+							</div>
+						</div>
 					</div>
 				</div>
 
 				<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 mb-4">
 					<div class="card">
-					  <div class="card-body">
-					    <div class="card-title row">
-					    	<div class="col-10">
-					    		<h5>Design</h5>
-					    	</div>
-					    	<div class="col-2">
-					    		<span class="fa fa-paint-brush"></span>
-					    	</div>
-				    	</div>
-					    <div class="card-text">Policymaker collaborates collective impact humanitarian shared value vocabulary inspire issue outcomes agile. Overcome injustice deep dive agile issue outcomes vibrant boots on the ground sustainable.</div>
-					  </div>
+						<div class="card-body">
+							<div class="card-title">
+								<h5>Omelet Basil</h5>
+							</div>
+							<div class="card-img">
+								<img :src="omeletBasil" />
+							</div>
+							<div class="card-text">
+								<p>Telur dadar dengan campuran sayuran basil.</p>
+								<p class="price">Rp. 25.000 / pack <span>(stok kosong)</span></p>
+							</div>
+						</div>
 					</div>
 				</div>
 
 				<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 mb-4">
 					<div class="card">
-					  <div class="card-body">
-					    <div class="card-title row">
-					    	<div class="col-10">
-					    		<h5>Develop</h5>
-					    	</div>
-					    	<div class="col-2">
-					    		<span class="fa fa-cubes"></span>
-					    	</div>
-				    	</div>
-					    <div class="card-text">Revolutionary circular, movements a or impact framework social impact low-hanging. Save the compelling revolutionary inspire progress. Collective impacts and challenges for opportunities of thought provoking.</div>
-					  </div>
+						<div class="card-body">
+							<div class="card-title">
+								<h5>Ayam Semur</h5>
+							</div>
+							<div class="card-img">
+								<img :src="ayamSemur" />
+							</div>
+							<div class="card-text">
+								<p>Ayam dimasak semur dengan rasa manis dan gurih.</p>
+								<p class="price">Rp. 45.000 / pack <span>(stok kosong)</span></p>
+							</div>
+						</div>
 					</div>
 				</div>
 
-				<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 mb-4">
-					<div class="card">
-					  <div class="card-body">
-					    <div class="card-title row">
-					    	<div class="col-10">
-					    		<h5>Marketing</h5>
-					    	</div>
-					    	<div class="col-2">
-					    		<span class="fa fa-bullhorn"></span>
-					    	</div>
-				    	</div>
-					    <div class="card-text">Peaceful; vibrant paradigm, collaborative cities. Shared vocabulary agile, replicable, effective altruism youth. Mobilize commitment to overcome injustice resilient, uplift social transparent effective.</div>
-					  </div>
-					</div>
-				</div>
-
-				<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 mb-4">
-					<div class="card">
-					  <div class="card-body">
-					    <div class="card-title row">
-					    	<div class="col-10">
-					    		<h5>Manage</h5>
-					    	</div>
-					    	<div class="col-2">
-					    		<span class="fa fa-tasks"></span>
-					    	</div>
-				    	</div>
-					    <div class="card-text">Change-makers innovation or shared unit of analysis. Overcome injustice outcomes strategize vibrant boots on the ground sustainable. Optimism, effective altruism invest optimism corporate social.</div>
-					  </div>
-					</div>
-				</div>
-
-				<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 mb-4">
-					<div class="card">
-					  <div class="card-body">
-					    <div class="card-title row">
-					    	<div class="col-10">
-					    		<h5>Evolve</h5>
-					    	</div>
-					    	<div class="col-2">
-					    		<span class="fa fa-line-chart"></span>
-					    	</div>
-				    	</div>
-					    <div class="card-text">Activate catalyze and impact contextualize humanitarian. Unit of analysis overcome injustice storytelling altruism. Thought leadership mass  incarceration. Outcomes big data, fairness, social game-changer.</div>
-					  </div>
-					</div>
-				</div>
-			</div>
-		</div>
-		<div v-bind:class="{milis: true, hide: isMilisHide}">
-			<div class="row">
-				<div class="col-11">
-					<h3>Get latest updates in web technologies</h3>
-				</div>
-				<div class="col-1">
-					<button class="btn-hide" v-on:click="milisHide"><i class="fa fa-times"></i></button>
-				</div>
-			</div>
-			<p>I write articles related to web technologies, such as design trends, development tools, UI/UX case studies and reviews, and more. Sign up to my newsletter to get them all.</p>
-			<div class="email-input">
-				<input type="text" placeholder="Email address" />
-				<button>Count me in!</button>
 			</div>
 		</div>
 	</div>
@@ -135,120 +77,117 @@
 
 <script>
 import { ImageSlider } from '../components'
+import ayamSrundeng from '../assets/ayam-srundeng.jpg';
+import omeletBasil from '../assets/omelet-basil.jpg';
+import ayamSemur from '../assets/ayam-semur.jpg';
 
 export default {
 	name: 'home',
 	data: function() {
 		return {
 			isTacHide: false,
-			isMilisHide: false
+			isMilisHide: false,
+			ayamSrundeng: ayamSrundeng,
+			omeletBasil: omeletBasil,
+			ayamSemur: ayamSemur
 		}
 	},
-  components: {
-    ImageSlider
-  },
-  methods: {
-  	tacHide() {
-  		this.isTacHide = true
-  	},
-  	milisHide() {
-  		this.isMilisHide = true
-  	}
-  }
+	components: {
+		ImageSlider
+	},
+	methods: {
+		tacHide() {
+			this.isTacHide = true
+		},
+		milisHide() {
+			this.isMilisHide = true
+		}
+	}
 }
 </script>
 
-<style scoped>
+<style lang="scss" scoped>
 .home-wrapper {
 	background-color: #dddddd;
 }
 .tac {
 		background-color: #cccccc;
-	  position: fixed;
-	  z-index: 999;
-	  top: 0px;
-	  transition: top .5s;
-}
-
-.milis {
-	position: fixed;
-	background-color: #1168a6;
-	color: #ffffff;
-	left: 0;
-	bottom: 0;
-	opacity: .95;
-	transition: left .5s;
+		position: fixed;
+		z-index: 999;
+		top: 0px;
+		transition: top .5s;
 }
 
 @media all and (max-width: 768px) {
 	.tac {
-	  padding: 10px 10px 10px 10px;
-	  font-size: 12px;
+		padding: 10px 10px 10px 10px;
+		font-size: 12px;
+
+		&.hide {
+			top: -120px;
+		}
 	}
-	.tac.hide {
-		top: -120px;
-	}
+
 	.intro {
 		width: 100%;
-	  margin: 60px auto 60px auto;
-	  text-align: center;
+		margin: 20px auto 30px auto;
+		text-align: center;
+
+		h1 {
+			font-size: 2rem;
+			font-weight: normal;
+			margin-bottom: 20px;
+		}
+
+		p {
+			font-size: 16px;
+		}
 	}
-	.intro h1 {
-		font-size: 2rem;
-		font-weight: normal;
-		margin-bottom: 20px;
-	}
-	.intro p {
-		font-size: 16px;
-	}
+
 	.card {
 		border-radius: 0;
 		box-shadow: inset 0px 0px 1px 1px #eeeeee;
 		background-color: #dddddd;
 		border: 1px solid #aaaaaa;
-	}
-	.card .card-body .card-title h5 {
-		color: #333333;
-	}
-	.card .card-body .card-title span {
-		color: #999999;
-		font-size: 24px;
-	}
-	.card .card-body .card-text {
-		font-size: 12px;
-	}	
-	.milis {
-		width: 100%;
-		padding: 20px;
-	}
-	.milis.hide {
-		left: -500px;
-	}
-	.milis h3 {
-		font-size: 1.5rem;
-	}
-	.milis .btn-hide {
-		font-size: 10px;
-		color: #ffffff;
-		border: 0;
-		background-color: transparent;
-	}
-	.milis p {
-		font-size: 12px;
-	}
-	.milis .email-input input {
-		height: 24px;
-		width: 100%;
-		font-size: 12px;
-	}
-	.milis .email-input button {
-		width: 100%;
-		height: 24px;
-		font-size: 12px;
-		font-weight: bold;
-		color: #ffffff;
-		border: 1px solid #c49102;
-		background-color: #ebad00;
+
+		.card-body {
+			.card-title {
+				h5 {
+					color: #333333;
+				}
+			}
+
+			.card-img {
+				margin-bottom: 20px;
+
+				img {
+					width: 100%;
+					height: 200px;
+					object-fit: cover;
+					padding: 5px;
+					border: 1px solid #cccccc;
+					background-color: #e3e3e3;
+				}
+			}
+
+			.card-text {
+				p {
+					font-size: 16px;
+
+					&.price {
+						color: #ff9900;
+						font-size: 16px;
+						font-weight: bold;
+						margin-bottom: 0;
+					}
+
+				 	span {
+						color: #ff0000;
+						text-align: right;
+					}
+				}
+			}	
+		}
 	}
 }
 
@@ -257,71 +196,74 @@ export default {
 		padding-left: 30px;
 		padding-right: 30px;
 	}
+
 	.tac {
-	  padding: 15px 25% 10px 25%;
-	  font-size: 12px;
+		padding: 15px 15% 0px 15%;
+		font-size: 12px;
+
+		&.hide {
+			top: -80px;
+		}
 	}
-	.tac.hide {
-		top: -80px;
-	}
+
 	.intro {
 		width: 60%;
-	  margin: 60px auto 60px auto;
-	  text-align: center;
+		margin: 30px auto 40px auto;
+		text-align: center;
+
+		h1 {
+			font-weight: normal;
+		}
+
+		p {
+			font-size: 16px;
+		}
 	}
-	.intro h1 {
-		font-weight: normal;
-	}
-	.intro p {
-		font-size: 16px;
-	}
+
 	.card {
 		border-radius: 0;
 		box-shadow: inset 0px 0px 1px 1px #eeeeee;
 		background-color: #dddddd;
 		border: 1px solid #aaaaaa;
-	}
-	.card .card-body .card-title h5 {
-		color: #333333;
-	}
-	.card .card-body .card-title span {
-		color: #999999;
-		font-size: 24px;
-	}
-	.card .card-body .card-text {
-		font-size: 12px;
-	}	
-	.milis {
-		width: 500px;
-		padding: 20px;
-	}
-	.milis.hide {
-		left: -500px;
-	}
-	.milis h3 {
-		font-size: 1.5rem;
-	}
-	.milis .btn-hide {
-		font-size: 10px;
-		color: #ffffff;
-		border: 0;
-		background-color: transparent;
-	}
-	.milis p {
-		font-size: 12px;
-	}
-	.milis .email-input input {
-		height: 24px;
-		width: 70%;
-		font-size: 12px;
-	}
-	.milis .email-input button {
-		height: 24px;
-		font-size: 12px;
-		font-weight: bold;
-		color: #ffffff;
-		border: 1px solid #c49102;
-		background-color: #ebad00;
+
+		.card-body {
+			.card-title {
+				h5 {
+					color: #333333;
+				}
+			}
+
+			.card-img {
+				margin-bottom: 20px;
+
+				img {
+					width: 100%;
+					height: 200px;
+					object-fit: cover;
+					padding: 5px;
+					border: 1px solid #cccccc;
+					background-color: #e3e3e3;
+				}
+			}
+
+			.card-text {
+				p {
+					font-size: 16px;
+
+					&.price {
+						color: #ff9900;
+						font-size: 16px;
+						font-weight: bold;
+						margin-bottom: 0;
+					}
+
+				 	span {
+						color: #ff0000;
+						text-align: right;
+					}
+				}
+			}
+		}
 	}
 }
 </style>
