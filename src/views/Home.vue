@@ -1,6 +1,6 @@
 <template>
 	<div class="home-wrapper">
-		<div v-bind:class="{tac: true, hide: isTacHide}">
+		<div v-bind:class="{tac: true, hide: true}">
 			<div class="row">
 				<div class="col-lg-10 col-md-10 col-sm-12 col-xs-12  mb-sm-3 mb-xs-3">
 					Dengan mengakses dan menggunakan situs web ini, Anda mengetahui bahwa Anda telah membaca dan memahami <a href="">Kebijakan Cookie</a>, <a href="">Kebijakan Privacy</a>, dan <a href="">Ketentuan Layanan</a> kami.
