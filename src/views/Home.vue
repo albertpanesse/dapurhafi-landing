@@ -44,12 +44,12 @@
 								<h5>Ayam Bacem</h5>
 							</div>
 							<div class="card-img">
-								<img :src="blank" />
+								<img :src="ayamBacem" />
 							</div>
 							<div class="card-text">
-								<p>Ayam dimasak bumbu kecap dengan rasa manis.</p>
-								<p>1 Pack isi 6 pcs ayam, dengan packing plastik kedap udara.</p>
-								<p class="price">Rp. 35.000 / pack</p>
+								<p>Ayam yang di olah memakai bumbu bacem jawa , rasanya manis gurih, siap di goreng atau di bakar.</p>
+								<p>1 Pack isi 1/2 kg ayam, dengan packing plastik kedap udara.</p>
+								<p class="price">Rp. 30.000 / pack</p>
 							</div>
 						</div>
 					</div>
@@ -91,6 +91,23 @@
 					</div>
 				</div>
 
+				<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 mb-4">
+					<div class="card">
+						<div class="card-body">
+							<div class="card-title">
+								<h5>Cireng</h5>
+							</div>
+							<div class="card-img">
+								<img :src="cireng" />
+							</div>
+							<div class="card-text">
+								<p>Cireng sudah banyak dikenal berbahan aci yang di olah dengan bumbu bawang putih dan garam. Per pack isi 20 biji cireng yang siap digoreng (sudah termasuk sauce cocolannya).</p>
+								<p class="price">Rp. 22.000 / pack</p>
+							</div>
+						</div>
+					</div>
+				</div>
+
 			</div>
 		</div>
 	</div>
@@ -100,9 +117,10 @@
 import { ImageSlider } from '../components'
 import blank from '../assets/blank.png'
 import ayamSrundeng from '../assets/ayam-srundeng.jpg'
-import ayamSemur from '../assets/ayam-semur.jpg'
+import ayamBacem from '../assets/ayam-bacem.jpg'
 import ayamBumbuKuning from '../assets/ayam-bumbu-kuning.jpg'
 import singkongBumbu from '../assets/singkong-bumbu.jpg'
+import cireng from '../assets/cireng.jpg'
 
 export default {
 	name: 'home',
@@ -114,7 +132,8 @@ export default {
 			ayamSrundeng: ayamSrundeng,
 			ayamSemur: ayamSemur,
 			ayamBumbuKuning: ayamBumbuKuning,
-			singkongBumbu: singkongBumbu
+			singkongBumbu: singkongBumbu,
+			cireng: cireng
 		}
 	},
 	components: {
