@@ -83,8 +83,8 @@
 								<img :src="singkongBumbu" />
 							</div>
 							<div class="card-text">
-								<p>Singkong bumbu kami olah dengan bumbu bawang dan keju rasanya gurih, berat sekitar 700g, dengan packing mika dan vacum untuk dapat disimpan dalam frezer sehingga siap saji kapanpun</p>
-								<p>Dapat di goreng atau di kukus, penyajiannya dapat di cocok sambel sesuai selera atau tabur dengan parutan keju</p>
+								<p>Singkong bumbu kami olah dengan bumbu bawang dan keju rasanya gurih, berat sekitar 700g, dengan packing mika dan vacum untuk dapat disimpan dalam frezer sehingga siap saji kapanpun.</p>
+								<p>Dapat di goreng atau di kukus, penyajiannya dapat di cocok sambel sesuai selera atau tabur dengan parutan keju.</p>
 								<p class="price">Rp. 12.000 / pack</p>
 							</div>
 						</div>
