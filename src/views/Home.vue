@@ -130,7 +130,6 @@ export default {
 			isMilisHide: false,
 			blank: blank,
 			ayamSrundeng: ayamSrundeng,
-			ayamSemur: ayamSemur,
 			ayamBumbuKuning: ayamBumbuKuning,
 			singkongBumbu: singkongBumbu,
 			cireng: cireng
