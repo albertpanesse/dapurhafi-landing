@@ -30,7 +30,7 @@
 							</div>
 							<div class="card-text">
 								<p>Ayam goreng dengan taburan srundeng.</p>
-								<p>1 Pack isi 6 pcs ayam, dengan packing plastik kedap udara.</p>
+								<p>1 Pack isi 6 pcs ayam, dengan packing kotak plastik mika (utk microwave).</p>
 								<p class="price">Rp. 35.000 / pack</p>
 							</div>
 						</div>
