@@ -73,6 +73,24 @@
 					</div>
 				</div>
 
+				<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 mb-4">
+					<div class="card">
+						<div class="card-body">
+							<div class="card-title">
+								<h5>Singkong Bumbu</h5>
+							</div>
+							<div class="card-img">
+								<img :src="singkongBumbu" />
+							</div>
+							<div class="card-text">
+								<p>Singkong bumbu kami olah dengan bumbu bawang dan keju rasanya gurih, berat sekitar 700g, dengan packing mika dan vacum untuk dapat disimpan dalam frezer sehingga siap saji kapanpun</p>
+								<p>Dapat di goreng atau di kukus, penyajiannya dapat di cocok sambel sesuai selera atau tabur dengan parutan keju</p>
+								<p class="price">Rp. 12.000 / pack</p>
+							</div>
+						</div>
+					</div>
+				</div>
+
 			</div>
 		</div>
 	</div>
@@ -83,6 +101,7 @@ import { ImageSlider } from '../components'
 import blank from '../assets/blank.png';
 import ayamSrundeng from '../assets/ayam-srundeng.jpg';
 import ayamSemur from '../assets/ayam-semur.jpg';
+import singkongBumbu from '../assets/singkong-bumbu.jpg';
 
 export default {
 	name: 'home',
@@ -93,6 +112,7 @@ export default {
 			blank: blank,
 			ayamSrundeng: ayamSrundeng,
 			ayamSemur: ayamSemur,
+			singkongBumbu: singkongBumbu
 		}
 	},
 	components: {
@@ -189,7 +209,7 @@ export default {
 						text-align: right;
 					}
 				}
-			}	
+			}
 		}
 	}
 }
