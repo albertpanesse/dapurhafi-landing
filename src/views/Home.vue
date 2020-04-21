@@ -62,12 +62,12 @@
 								<h5>Ayam Bumbu Kuning</h5>
 							</div>
 							<div class="card-img">
-								<img :src="blank" />
+								<img :src="ayamBumbuKuning" />
 							</div>
 							<div class="card-text">
-								<p>Ayam dimasak bumbu kuning dan rasa yang gurih.</p>
+								<p>Ayam dibumbu kuning, masih mentah siap goreng.</p>
 								<p>1 Pack isi 6 pcs ayam, dengan packing plastik kedap udara.</p>
-								<p class="price">Rp. 35.000 / pack</p>
+								<p class="price">Rp. 30.000 / pack</p>
 							</div>
 						</div>
 					</div>
@@ -98,10 +98,11 @@
 
 <script>
 import { ImageSlider } from '../components'
-import blank from '../assets/blank.png';
-import ayamSrundeng from '../assets/ayam-srundeng.jpg';
-import ayamSemur from '../assets/ayam-semur.jpg';
-import singkongBumbu from '../assets/singkong-bumbu.jpg';
+import blank from '../assets/blank.png'
+import ayamSrundeng from '../assets/ayam-srundeng.jpg'
+import ayamSemur from '../assets/ayam-semur.jpg'
+import ayamBumbuKuning from '../assets/ayam-bumbu-kuning.jpg'
+import singkongBumbu from '../assets/singkong-bumbu.jpg'
 
 export default {
 	name: 'home',
@@ -112,6 +113,7 @@ export default {
 			blank: blank,
 			ayamSrundeng: ayamSrundeng,
 			ayamSemur: ayamSemur,
+			ayamBumbuKuning: ayamBumbuKuning,
 			singkongBumbu: singkongBumbu
 		}
 	},
