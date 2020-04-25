@@ -108,6 +108,23 @@
 					</div>
 				</div>
 
+				<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 mb-4">
+					<div class="card">
+						<div class="card-body">
+							<div class="card-title">
+								<h5>Kering Tempe</h5>
+							</div>
+							<div class="card-img">
+								<img :src="keringTempe" />
+							</div>
+							<div class="card-text">
+								<p>Makanan khas kampung ini sangat menggugah selera, rasanya yang khas dan enak ...kriuk..berisi tempe kentang dan kacang ...rasa manis gurih pedes ...mmm nyam nyam.</p>
+								<p class="price">Rp. 22.000 / kotak (berat kurang lebih 220 gram)</p>
+							</div>
+						</div>
+					</div>
+				</div>
+
 			</div>
 		</div>
 	</div>
@@ -121,6 +138,7 @@ import ayamBacem from '../assets/ayam-bacem.jpg'
 import ayamBumbuKuning from '../assets/ayam-bumbu-kuning.jpg'
 import singkongBumbu from '../assets/singkong-bumbu.jpg'
 import cireng from '../assets/cireng.jpg'
+import keringTempe from '../assets/kering-tempe.jpg'
 
 export default {
 	name: 'home',
@@ -133,7 +151,8 @@ export default {
 			ayamBacem: ayamBacem,
 			ayamBumbuKuning: ayamBumbuKuning,
 			singkongBumbu: singkongBumbu,
-			cireng: cireng
+			cireng: cireng,
+			keringTempe: keringTempe
 		}
 	},
 	components: {
