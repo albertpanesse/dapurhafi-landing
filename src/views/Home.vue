@@ -29,7 +29,7 @@
 								<img :src="ayamSrundeng" />
 							</div>
 							<div class="card-text">
-								<p>Ayam goreng dengan taburan srundeng.</p>
+								<p>Ayam goreng dengan taburan srundeng, siap saji.</p>
 								<p>1 Pack isi 6 pcs ayam, dengan packing kotak plastik mika (utk microwave).</p>
 								<p class="price">Rp. 35.000 / pack</p>
 							</div>
@@ -47,7 +47,7 @@
 								<img :src="ayamBacem" />
 							</div>
 							<div class="card-text">
-								<p>Ayam yang di olah memakai bumbu bacem jawa , rasanya manis gurih, siap di goreng atau di bakar.</p>
+								<p>Ayam yang diolah memakai bumbu bacem jawa dengan rasa manis gurih, siap goreng.</p>
 								<p>1 Pack isi 1/2 kg ayam, dengan packing plastik kedap udara.</p>
 								<p class="price">Rp. 30.000 / pack</p>
 							</div>
@@ -65,7 +65,7 @@
 								<img :src="ayamBumbuKuning" />
 							</div>
 							<div class="card-text">
-								<p>Ayam dibumbu kuning, masih mentah siap goreng.</p>
+								<p>Ayam dibumbu kuning dengan rasa gurih, siap goreng.</p>
 								<p>1 Pack isi 6 pcs ayam, dengan packing plastik kedap udara.</p>
 								<p class="price">Rp. 30.000 / pack</p>
 							</div>
@@ -125,6 +125,23 @@
 					</div>
 				</div>
 
+				<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 mb-4">
+					<div class="card">
+						<div class="card-body">
+							<div class="card-title">
+								<h5>Dimsum Ayam</h5>
+							</div>
+							<div class="card-img">
+								<img :src="dimsumAyam" />
+							</div>
+							<div class="card-text">
+								<p>Dimsum adalah makanan yang hampir semua orang suka. Rasa ayam, 10 biji dalam packing kotak plastik khusus untuk microwave.</p>
+								<p class="price">Rp. 25.000 / kotak</p>
+							</div>
+						</div>
+					</div>
+				</div>
+
 			</div>
 		</div>
 	</div>
@@ -139,6 +156,7 @@ import ayamBumbuKuning from '../assets/ayam-bumbu-kuning.jpg'
 import singkongBumbu from '../assets/singkong-bumbu.jpg'
 import cireng from '../assets/cireng.jpg'
 import keringTempe from '../assets/kering-tempe.jpg'
+import dimsumAyam from '../assets/dimsum-ayam.jpg'
 
 export default {
 	name: 'home',
