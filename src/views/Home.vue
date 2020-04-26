@@ -170,7 +170,8 @@ export default {
 			ayamBumbuKuning: ayamBumbuKuning,
 			singkongBumbu: singkongBumbu,
 			cireng: cireng,
-			keringTempe: keringTempe
+			keringTempe: keringTempe,
+			dimsumAyam: dimsumAyam
 		}
 	},
 	components: {
