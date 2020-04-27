@@ -142,9 +142,29 @@
 					</div>
 				</div>
 
+				<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 mb-4">
+					<div class="card">
+						<div class="card-body">
+							<div class="card-title">
+								<h5>Cilok Aneka Rasa</h5>
+							</div>
+							<div class="card-img">
+								<img :src="cilok" />
+							</div>
+							<div class="card-text">
+								<p>Dengan varian isi di dalamnya. Ada yang rasa pedes seperti mercon, ada rasa keju, dan juga ada rasa daging.</p>
+								<p class="price">Rp. 25.000 / kotak</p>
+							</div>
+						</div>
+					</div>
+				</div>
+
 			</div>
 		</div>
-	</div>
+		<div class="container social">
+
+		</div>
+	</>
 </template>
 
 <script>
@@ -157,6 +177,7 @@ import singkongBumbu from '../assets/singkong-bumbu.jpg'
 import cireng from '../assets/cireng.jpg'
 import keringTempe from '../assets/kering-tempe.jpg'
 import dimsumAyam from '../assets/dimsum-ayam.jpg'
+import cilok from '../assets/cilok.jpg'
 
 export default {
 	name: 'home',
@@ -171,7 +192,8 @@ export default {
 			singkongBumbu: singkongBumbu,
 			cireng: cireng,
 			keringTempe: keringTempe,
-			dimsumAyam: dimsumAyam
+			dimsumAyam: dimsumAyam,
+			cilok: cilok
 		}
 	},
 	components: {
@@ -191,6 +213,10 @@ export default {
 <style lang="scss" scoped>
 .home-wrapper {
 	background-color: #dddddd;
+
+	.social {
+		display: flex;
+	}
 }
 .tac {
 		background-color: #cccccc;
