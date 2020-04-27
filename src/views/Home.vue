@@ -161,9 +161,6 @@
 
 			</div>
 		</div>
-		<div class="container social">
-
-		</div>
 	</>
 </template>
 
