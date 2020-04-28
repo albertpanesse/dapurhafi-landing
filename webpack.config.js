@@ -65,7 +65,7 @@ module.exports = {
   devServer: {
 		contentBase: './dist',
     hot: true,
-		host: '192.168.1.11',
+		host: '172.17.51.15',
 		port: 4000
 	},
 	devtool: 'inline-source-map',

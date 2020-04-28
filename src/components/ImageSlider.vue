@@ -5,7 +5,13 @@
 			<h1 class="display-4">Hi, kami Dapur Hafi ...</h1>
 			<h3>Silakan memesan dari menu-menu yang tersedia.</h3>
 			<p>Untuk saat ini area layanan kami untuk wilayah Yogyakarta. Pemesanan dapat dilakukan melalui Whatsapp / Telfon / SMS ke 081392274497.</p>
-			<a class="btn btn-outline-light btn-lg" href="https://api.whatsapp.com/send?phone=6281392274497&text=Hi, Dapur Hafi ..." role="button">Pesan Sekarang</a>			
+			<a class="btn btn-outline-light btn-lg" href="https://api.whatsapp.com/send?phone=6281392274497&text=Hi, Dapur Hafi ..." role="button">Pesan Sekarang</a>
+			<p class="toped">Atau bisa dipesan melalui <a href="https://www.tokopedia.com/hafionline" target="_blank">Tokopedia</a>.</p>
+			<div class="socials">
+				<a href="https://www.facebook.com/dapurhafi.yogya" target="_blank"><i class="fa fa-facebook-square"></i></a>
+				<a href="https://www.instagram.com/dapurhafi.id" target="_blank"><i class="fa fa-instagram"></i></a>
+				<a href="https://twitter.com/dapurhafi_id" target="_blank"><i class="fa fa-twitter-square"></i></a>
+			</div>
 		</div>
 	</div>
 </template>
@@ -24,6 +30,36 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+.toped {
+	margin-top: 20px;
+	font-size: 20px;
+
+	a {
+		color: #ffffff;
+	}
+	a:hover {
+		color: #ff9900;
+		text-decoration: none;
+	}
+}
+
+.socials {
+		box-sizing: border-box;
+
+		a {
+			margin-right: 20px;
+			font-size: 42px;
+			color: #ffffff;
+		}
+		a:hover {
+			color: #ff9900;
+			text-decoration: none;
+		}
+		a:last-child {
+			margin-right: 0;
+		}
+}
+
 @media all and (max-width: 768px) {
 	.image-slider-wrapper {
 		position: relative;
@@ -55,7 +91,7 @@ export default {
 		  left: 0;
 		  width: 100%;
 		  height: 600px;
-		  padding: 220px 20px 0 20px;
+		  padding: 200px 20px 0 20px;
 		  color: #ffffff;
 
 		  img {
@@ -91,7 +127,7 @@ export default {
 			top: 0;
 			width: 100%;
 			height: 600px;
-			background-image: url(../assets/bg.jpg);			
+			background-image: url(../assets/bg.jpg);
 			background-size: 100% auto;
 			filter: contrast(100%) brightness(50%);
 		}
@@ -102,7 +138,7 @@ export default {
 		  left: 0;
 		  width: 100%;
 		  height: 600px;
-		  padding: 230px 20% 0 20%;
+		  padding: 200px 20% 0 20%;
 		  color: #ffffff;
 
 		  img {

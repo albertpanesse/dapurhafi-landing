@@ -31,8 +31,10 @@
 							<div class="card-text">
 								<p>Ayam goreng dengan taburan srundeng, siap saji.</p>
 								<p>1 Pack isi 6 pcs ayam, dengan packing kotak plastik mika (utk microwave).</p>
-								<p class="price">Rp. 35.000 / pack</p>
 							</div>
+						</div>
+						<div class="card-footer">
+							<p class="price">Rp. 35.000 / pack</p>
 						</div>
 					</div>
 				</div>
@@ -49,8 +51,10 @@
 							<div class="card-text">
 								<p>Ayam yang diolah memakai bumbu bacem jawa dengan rasa manis gurih, siap goreng.</p>
 								<p>1 Pack isi 1/2 kg ayam, dengan packing plastik kedap udara.</p>
-								<p class="price">Rp. 30.000 / pack</p>
 							</div>
+						</div>
+						<div class="card-footer">
+							<p class="price">Rp. 30.000 / pack</p>
 						</div>
 					</div>
 				</div>
@@ -67,8 +71,10 @@
 							<div class="card-text">
 								<p>Ayam dibumbu kuning dengan rasa gurih, siap goreng.</p>
 								<p>1 Pack isi 6 pcs ayam, dengan packing plastik kedap udara.</p>
-								<p class="price">Rp. 30.000 / pack</p>
 							</div>
+						</div>
+						<div class="card-footer">
+							<p class="price">Rp. 30.000 / pack</p>
 						</div>
 					</div>
 				</div>
@@ -85,8 +91,10 @@
 							<div class="card-text">
 								<p>Singkong bumbu kami olah dengan bumbu bawang dan keju rasanya gurih, berat sekitar 700g, dengan packing mika dan vacum untuk dapat disimpan dalam frezer sehingga siap saji kapanpun.</p>
 								<p>Dapat di goreng atau di kukus, penyajiannya dapat di cocok sambel sesuai selera atau tabur dengan parutan keju.</p>
-								<p class="price">Rp. 12.000 / pack</p>
 							</div>
+						</div>
+						<div class="card-footer">
+							<p class="price">Rp. 12.000 / pack</p>
 						</div>
 					</div>
 				</div>
@@ -102,8 +110,10 @@
 							</div>
 							<div class="card-text">
 								<p>Cireng sudah banyak dikenal berbahan aci yang di olah dengan bumbu bawang putih dan garam. Per pack isi 20 biji cireng yang siap digoreng (sudah termasuk sauce cocolannya).</p>
-								<p class="price">Rp. 22.000 / pack</p>
 							</div>
+						</div>
+						<div class="card-footer">
+							<p class="price">Rp. 22.000 / pack</p>
 						</div>
 					</div>
 				</div>
@@ -119,8 +129,10 @@
 							</div>
 							<div class="card-text">
 								<p>Makanan khas kampung ini sangat menggugah selera, rasanya yang khas dan enak ...kriuk..berisi tempe kentang dan kacang ...rasa manis gurih pedes ...mmm nyam nyam.</p>
-								<p class="price">Rp. 22.000 / kotak (berat kurang lebih 220 gram)</p>
 							</div>
+						</div>
+						<div class="card-footer">
+							<p class="price">Rp. 22.000 / kotak (berat kurang lebih 220 gram)</p>
 						</div>
 					</div>
 				</div>
@@ -136,8 +148,10 @@
 							</div>
 							<div class="card-text">
 								<p>Dimsum adalah makanan yang hampir semua orang suka. Rasa ayam, 10 biji dalam packing kotak plastik khusus untuk microwave.</p>
-								<p class="price">Rp. 25.000 / kotak</p>
 							</div>
+						</div>
+						<div class="card-footer">
+							<p class="price">Rp. 25.000 / kotak</p>
 						</div>
 					</div>
 				</div>
@@ -153,8 +167,10 @@
 							</div>
 							<div class="card-text">
 								<p>Dengan varian isi di dalamnya. Ada yang rasa pedes seperti mercon, ada rasa keju, dan juga ada rasa daging.</p>
-								<p class="price">Rp. 25.000 / kotak</p>
 							</div>
+						</div>
+						<div class="card-footer">
+							<p class="price">Rp. 25.000 / kotak</p>
 						</div>
 					</div>
 				</div>
@@ -279,17 +295,21 @@ export default {
 				p {
 					font-size: 16px;
 
-					&.price {
-						color: #ff9900;
-						font-size: 16px;
-						font-weight: bold;
-						margin-bottom: 0;
-					}
-
 				 	span {
 						color: #ff0000;
 						text-align: right;
 					}
+				}
+			}
+		}
+
+		.card-footer {
+			p {
+				&.price {
+					color: #ff9900;
+					font-size: 16px;
+					font-weight: bold;
+					margin-bottom: 0;
 				}
 			}
 		}
@@ -330,6 +350,7 @@ export default {
 		box-shadow: inset 0px 0px 1px 1px #eeeeee;
 		background-color: #dddddd;
 		border: 1px solid #aaaaaa;
+		height: 500px;
 
 		.card-body {
 			.card-title {
@@ -355,17 +376,21 @@ export default {
 				p {
 					font-size: 16px;
 
-					&.price {
-						color: #ff9900;
-						font-size: 16px;
-						font-weight: bold;
-						margin-bottom: 0;
-					}
-
 				 	span {
 						color: #ff0000;
 						text-align: right;
 					}
+				}
+			}
+		}
+
+		.card-footer {
+			p {
+				&.price {
+					color: #ff9900;
+					font-size: 16px;
+					font-weight: bold;
+					margin-bottom: 0;
 				}
 			}
 		}
